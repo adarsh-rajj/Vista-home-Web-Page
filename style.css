@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo */
+
+/* navbar */
+.nav-item a {
+    color: black;
+}
+
+/* main body/ */
+.main {
+    background: url(image/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    background-position: center;
+    height: 685px;
+    /* background-clip: content-box; */
+}
+
+.main-head {
+    /* margin: 0 26px; */
+}
+
+.main-head p {
+    width: 40%;
+}
+
+.slag {
+    display: flex;
+    
+}
+
+.slag-img {
+    border-radius: 50%;
+    position: relative;
+}
+
+.main-col button {
+    padding: 0 20px;
+}
+
+.main-button button {
+    margin: 52px 0px;
+
+}
+
+.row-main-1 {
+    margin: 19px 0px;
+
+}
+
+.row-main-2 {
+    /* margin: 25px 0px; */
+}
+
+.row-main-2 button {
+    padding: 5px 25px;
+    margin: 0 10px;
+}
+
+.sear-main input,
+.sear-main select,
+.sear-main button {
+    /* margin: 0px 2px; */
+}
+
+
+
+/* our project */
+
+.rotate {
+    display: flex;
+}
+
+.rot-1,
+.rot-2 {
+
+    transform: rotate(-18deg);
+    transform-origin: 84% 33%;
+}
+
+.rot-1 img,
+.rot-2 img {
+    height: 314px;
+}
+
+.proj-head h1 {
+    font-size: 50px;
+}
+
+
+
+/* our feature properties */
+.feature-head {
+    width: 80%;
+    margin: auto;
+}
+.feature-head h1{
+    font-size: 45px;
+}
+
+.special-card {
+    width: 23%;
+    margin: auto;
+    box-shadow: 3px 8px 14px gray;
+}
+
+.special-card img {
+    border-radius: 16px;
+}
+
+.carousel-control-prev {
+    display: unset;
+}
+
+
+
+
+
+
+
+/* houses trending */
+
+.house-card {
+    width: 23%;
+    margin: auto;
+    border: 0px;
+}
+
+.house-card img {
+    border-radius: 20px 0px 0px 20px
+}
+.house-head h5{
+    font-size: 26px;
+}
+
+
+/* our best Home */
+.first-image img, .second-image img, .third-image img{
+    padding: 10px;
+}
+.head1 h6, .head2 h6{
+    background: #484545;
+    padding: 1px 6px;
+    border-radius: 6px;
+}
+.house-head h5{
+    font-size: 27px;
+}
+
+
+/* discover your dream */
+.slag-disc {
+    /* margin: 100px auto; */
+    border: 2px solid #e75c3d;
+    /* width: 80%; */
+    border-radius: 6px;
+}
+
+.achiev {
+    justify-content: space-around;
+}
+
+.row-disc {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dis-col {
+    width: 50%;
+}
+
+/* meet our best agent */
+.meet-head p {
+    width: 60%;
+    margin: auto;
+}
+.meet-head h4{
+    font-size: 30px;
+}
+
+/* join now for exclusive saving */
+
+
+/* get in touch woith us  */
+.touch-back {
+    background: url(image/best-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inp input,
+.inp textarea {
+    opacity: 0.7;
+    padding: 25px;
+}
+
+.meet-head h5{
+    font-size: 30px;
+}
+.meet-head p{
+    font-size: 18px;
+}
+.touch-form h4{
+    font-size: 34px;
+}
+
+/* our latest news */
+.row-news {
+    /* display: flex;
+    justify-content: center; */
+}
+.news-col {
+    width: 33%;
+    /* margin: auto; */
+}
+.news-col-1{
+    width: 34%;
+}
+
+/* footer */
+.lis ul li {
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot-1 {
+    width: 35%;
+    padding: 12px;
+}
+
+.foot-2, .foot-3, .foot-4 {
+    width: 20%;
+    padding: 12px;
+}
+.foot-2 ul li, .foot-3 ul li, .foot-4 ul li {
+   font-weight: 500;
+   margin: 12px 0;
+}
+
+@media only screen and (max-width: 769px) {
+
+    /* logo */
+
+    /* navbar */
+    .nav-button button{
+        font-size: 10px;
+    }
+
+    /* main body/ */
+    .main {
+        height: 750px;
+        
+    }
+
+    .sear-main input,
+    .sear-main select,
+    .sear-main button {
+        width: 18%;
+    }
+
+    /* our project */
+    .proj-head h1 {
+        font-size: 54px;
+        /* width: 59%; */
+
+    }
+
+    .proj-head p {
+        width: 70%;
+    }
+    .row-main-2{
+        width: 50%;
+    }
+
+    .rotate {
+        justify-content: center;
+    }
+
+    /* our feature properties */
+    .special-card {
+        width: 45%;
+        margin: auto;
+    }
+    .feature-head p{
+        font-size: 10px;
+    }
+
+    /* houses trending */
+    .house-card {
+        width: 45%;
+        margin: auto;
+        /* border: 1; */
+    }
+
+    .house-card img {
+        border-radius: 10px;
+    }
+
+    /* our best Home */
+    .first-image img, .second-image img, .third-image img{
+        padding: 4px;
+    }
+
+    /* discover your dream */
+    .dis-col {
+        width: 100%;
+    }
+    .first-image img, .second-image img, .third-image img{
+        border-radius: 13px;
+    }
+
+    /* meet our best agent */
+    .meet-card-1 {
+        display: flex;
+        justify-content: center;
+        width: 18rem;
+    }
+    .meet-head p{
+        font-size: 12px;
+    }
+
+    /* join now for exclusive saving */
+    .img-disc{
+        /* width: 96%;
+        margin: auto; */
+    }
+    .img-disc img{
+        /* border-radius: 6px; */
+    }
+
+
+    /* get in touch woith us  */
+
+    /* our latest news */
+    .news-col {
+        width: 100%;
+        /* margin: auto; */
+    }
+    .news-col-1{
+        width: 100%;
+    }
+ 
+
+    /* footer */
+    .foot-1 {
+        width: 100%;
+        order: 2;
+        display: flex;
+        justify-content: center;
+    }
+    .foot-1-2{
+        margin: 34px 17px;
+    }
+    .foot-1-2 p{
+        font-size: 12px;
+    }
+    
+    .foot-2, .foot-3, .foot-4 {
+        width: 30%;
+    }
+    .foot-1-5{
+        display: flex;
+    }
+    .icon-foot{
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* logo */
+
+    /* navbar */
+
+    /* main body/ */
+    .main {
+        height: 570px;
+        margin: 63px 0;
+    }
+
+    .main-head p {
+        width: 60%;
+        font-size: 8px;
+    }
+
+    .row-main-2 {
+        margin: 24px 0px;
+        width: 73%;
+    }
+
+    .row-main-2 button {
+        padding: 0px 11px;
+        margin: 0px 6px;
+    }
+    
+    .slag{
+        font-size: 7px;
+    }
+    .btn-2 button{
+        font-size: 7px;
+    }
+    /* our project */
+    .proj-head h1 {
+        font-size: 24px;
+    }
+
+    .proj-head p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .rot-1 img,
+    .rot-2 img {
+        height: 175px;
+    }
+
+    /* our feature properties */
+    .special-card {
+         width: 98%;
+        margin: auto;
+    } 
+
+    .feature-head h1 {
+        font-size: 20px;
+    }
+
+    .feature-head p {
+        font-size: 10px;
+    }
+    .property{
+        width: 550%;
+    }
+
+    /* houses trending */
+    .house-card {
+        width: 90%;
+        margin: auto;
+
+    }
+    .house-head h5 {
+        font-size: 15px;
+    }
+    .house-head  h1{
+        font-size: 23px;
+    }
+
+
+    /* our best Home */
+    .head1 h6, .head2 h6{
+        font-size: 10px;
+    }
+    .first-image img, .second-image img, .third-image img{
+        padding: 2px;
+    }
+    .best{
+        margin: -61px 0px 0px 0px;
+    }
+
+
+    /* discover your dream */
+    .slag-disc {
+        /* margin: 52px auto;
+        width: 87%; */
+    }
+
+    .slag-disc p {
+        font-size: 10px;
+    }
+
+    .discover-head p {
+        font-size: 10px;
+    }
+
+
+    /* meet our best agent */
+    .meet-head p {
+        width: 80%;
+        margin: auto;
+    }
+    .meet-head h4 {
+        font-size: 16px;
+    }
+
+
+
+    /* join now for exclusive saving */
+    .row-disc{
+        margin: -27px 0 -96px 0px;
+    }
+
+    /* get in touch woith us  */
+    .meet-head p{
+        font-size: 8px;
+    }
+    .touch-form h4 {
+        font-size: 21px;
+    }
+    .meet-head h5 {
+        font-size: 15px;
+    }
+    
+    .meet-head h1{
+        font-size: 20px;
+    }    
+
+
+    /* our latest news */
+    .news-head h1 {
+        font-size: 20px;
+    }
+    .news-img{
+        /* width: 80%;
+        margin: auto; */
+    }
+
+    /* footer */
+
+    .foot-1 {
+        width: 100%;
+        order: 2;
+    }
+    
+    .foot-2, .foot-3, .foot-4 {
+        width: 50%;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+
+    /* our project */
+    .proj-head h1 {
+        font-size: 54px;
+    }
+
+    .proj-head p {
+        width: 70%;
+    }
+
+    .rotate {
+        justify-content: center;
+    }
+
+
+    /* our feature properties */
+    .special-card {
+        width: 45%;
+        margin: auto;
+    }
+
+    /* house */
+    .house-card {
+        width: 45%;
+        margin: auto;
+    }
+
+    /* meet our best agent */
+    .meet-card-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 426px) {
+
+    /* our feature properties */
+    .special-card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .feature-head h1 {
+        font-size: 20px;
+    }
+
+    .feature-head p {
+        font-size: 10px;
+    }
+
+    /* house */
+
+    .house-card {
+        width: 90%;
+        margin: auto;
+    }
+
+
+}
